@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somatório de Múltiplos de 3 e 5</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container d-flex align-items-center justify-content-center vh-100">
+        <div class="jumbotron">
+            <h1 class="display-4"><i class="fas fa-calculator"></i> Somatório de Múltiplos de 3 e 5</h1>
+            <div class="form-group">
+                <label for="numero"><i class="fas fa-keyboard"></i> Digite um número inteiro positivo:</label>
+                <input type="number" class="form-control" id="numero" min="1" required>
+            </div>
+            <button class="btn btn-primary" onclick="calcularSomatorio()"><i class="fas fa-calculator"></i>
+                Calcular</button>
+            <p class="mt-3" id="resultado"></p>
+            <p id="detalhes"></p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

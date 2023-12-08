@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+}
+
+.jumbotron {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    color: #333;
+}
+
+.btn-primary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-primary:hover {
+    background-color: #5a6268;
+    border-color: #5a6268;
+}
+
+#resultado {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #343a40;
+}
+
+#detalhes {
+    font-size: 1.2em;
+    color: #28a745;
+}
+
+@media (max-width: 576px) {
+    .jumbotron {
+        padding: 15px;
+    }
+
+    #resultado {
+        font-size: 1.2em;
+    }
+
+    #detalhes {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 768px) {
+    #resultado {
+        font-size: 2em;
+    }
+
+    #detalhes {
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 1200px) {
+    #resultado {
+        font-size: 2.5em;
+    }
+
+    #detalhes {
+        font-size: 1.5em;
+    }
+}
+
